@@ -34,7 +34,7 @@ You must use your real name (sorry, no pseudonyms, and no anonymous contribution
 
 ## Help / Documentation
 
-Please see the [README](README.md) to get started.
+Please see the project's README to get started.
 
 ## Code of Conduct
 
