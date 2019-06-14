@@ -27,11 +27,28 @@ You must use your real name (sorry, no pseudonyms, and no anonymous contribution
 
 ## Steps
 
-- Create an [Issue](../../../issues) and explain the proposed change.
+- Create an Issue, selecting 'Feature Request', and explain the proposed change.
 - Follow the guidelines in the issue template presented to you.
 - Submit the Issue.
-- Submit a [Pull Request](../../../pulls) and link it to the Issue by including "#<issue number>" in the Pull Request summary.
+- Submit a Pull Request and link it to the Issue by including "#<issue number>" in the Pull Request summary.
 
 ## Help / Documentation
 
 Please see the [README](README.md) to get started.
+
+## Code of Conduct
+
+This project has adopted a [Code of Conduct](CODE_OF_CONDUCT.md). If you have any concerns about the Code, or behavior
+which you have experienced in the project, please contact us at opensource@bloomberg.net.
+
+## Security Vulnerability Reporting
+
+If you believe you have identified a security vulnerability in this project, please send email to the project
+team at opensource@bloomberg.net, detailing the suspected issue and any methods you've found to reproduce it.
+
+Please do NOT open an issue in the GitHub repository, as we'd prefer to keep vulnerability reports private until
+we've had an opportunity to review and address them.
+
+## Licensing
+
+See the LICENSE file in the top directory of the project repository for licensing information about the project.
