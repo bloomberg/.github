@@ -1,4 +1,4 @@
-![black Bloomberg Engineering logo on white background](https://raw.githubusercontent.com/bloomberg/.github/master/profile/bbg-engineering-logo.png | width=600)
+<img src="https://raw.githubusercontent.com/bloomberg/.github/master/profile/bbg-engineering-logo.png" width="50%" alt="black Bloomberg Engineering logo on white background">
 
 Bloomberg sits at the intersection of high-availability, low-latency,
 and large-scale computing. We have a long track record of contributing
