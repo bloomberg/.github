@@ -32,7 +32,7 @@ jobs:
       #     # Create env variable for next step
       #     echo "ONE_WEEK_AGO=$PREVIOUS_DATE" >> "$GITHUB_ENV"
       - name: 🌲 evergreen check
-        uses: github/evergreen@89980256962fae821ba73ae35c9e0216e6bb674f # v1.11.1
+        uses: github/evergreen@ed3d1f98dda1e3a321c5e9666e59ca24ffcd290f # v1.20.2
         env:
           GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
           ORGANIZATION: bloomberg
