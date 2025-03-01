@@ -18,7 +18,7 @@ jobs:
         issues: write
     steps:
       - name: 🧼 clean codeowners
-        uses: github/cleanowners@f4b06472db260fd1582c5110e7f89885b54a397a # no semver release yet
+        uses: github/cleanowners@f4b06472db260fd1582c5110e7f89885b54a397a # v1.1.17
         env:
           GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
           ORGANIZATION: bloomberg
