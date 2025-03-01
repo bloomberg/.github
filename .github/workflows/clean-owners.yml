@@ -1,0 +1,26 @@
+name: clean-owners
+
+on:
+  # Scheduled trigger
+  schedule:
+    # Run weekly on Saturdays
+    - cron: "30 1 * * 6"
+  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  issues: none
+
+jobs:
+  clean-owners:
+    runs-on: ubuntu-latest
+    permissions:
+        issues: write
+    steps:
+      - name: 🧼 clean codeowners
+        uses: github/cleanowners@c8770cb9f4560fb0434af42607e4932155181b85 # no semver release yet
+        env:
+          GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
+          ORGANIZATION: bloomberg
+          EXEMPT_REPOS: "bloomberg/.github, bloomberg/.allstar"
+          DRY_RUN: true

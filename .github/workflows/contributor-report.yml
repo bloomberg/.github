@@ -1,0 +1,52 @@
+name: contributor-report
+
+on:
+  # Scheduled trigger
+  schedule:
+    # Run the first day of the month at 00:00
+    - cron: "0 0 1 * *"
+  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  issues: none
+
+jobs:
+  contributor-report:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Define orgs to report contributor activity
+        org:
+          [
+            "bloomberg",
+          ]
+    permissions:
+        # Required to create contributor report
+        issues: write
+    steps:
+      - name: 📅 calculate date
+        shell: bash
+        run: |
+          # Calculate the first day of the previous month
+          START_DATE=$(date -d "last month" +%Y-%m-01)
+          # Calculate the last day of the previous month
+          END_DATE=$(date -d "$START_DATE +1 month -1 day" +%Y-%m-%d)
+          # Set an environment variable with the date range
+          echo "START_DATE=$START_DATE" >> "$GITHUB_ENV"
+          echo "END_DATE=$END_DATE" >> "$GITHUB_ENV"
+      - name: 📰 run contributors action
+        uses: github/contributors@135b0430e856ade27175cbd1d4e1e11b0dd8ef95 # v1.4.3
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          START_DATE: ${{ env.START_DATE }}
+          END_DATE: ${{ env.END_DATE }}
+          ORGANIZATION: ${{ matrix.org }}
+          LINK_TO_PROFILE: "True"
+      - name: 📥 create issue
+        uses: peter-evans/create-issue-from-file@24452a72d85239eacf1468b0f1982a9f3fec4c94 # v5.0.0
+        with:
+          title: "📰 Monthly Contributor Report: ${{ matrix.org }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          content-filepath: "./contributors.md"
+          assignees: ${{ github.actor }}

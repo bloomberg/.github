@@ -1,0 +1,51 @@
+name: evergreen-check
+
+on:
+  # Scheduled trigger
+  schedule:
+    # Run weekly on Saturdays
+    - cron: "30 1 * * 6"
+  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  pull-requests: none
+  issues: none
+
+jobs:
+  evergreen-check:
+    runs-on: ubuntu-latest
+    permissions:
+      # Required to create pull requests
+      pull-requests: write
+      # Required to create issues
+      issues: write
+    steps:
+      # - name: 📅 calculate date
+      #   shell: bash
+      #   run: |
+      #     # Get the current date
+      #     CURRENT_DATE=$(date +'%Y-%m-%d')
+      #     # Calculate the previous month
+      #     PREVIOUS_DATE=$(date -d "$CURRENT_DATE -7 day" +'%Y-%m-%d')
+      #     echo "$PREVIOUS_DATE..$CURRENT_DATE"
+      #     # Create env variable for next step
+      #     echo "ONE_WEEK_AGO=$PREVIOUS_DATE" >> "$GITHUB_ENV"
+      - name: 🌲 evergreen check
+        uses: github/evergreen@89980256962fae821ba73ae35c9e0216e6bb674f # v1.11.1
+        env:
+          GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
+          ORGANIZATION: bloomberg
+          EXEMPT_REPOS: "bloomberg/.github, bloomberg/.allstar"
+          TYPE: pull
+          TITLE: ".github: Add Dependabot configuration"
+          BODY: |
+            👋 This pull request was generated using GitHub's [Evergreen Action](https://github.com/github/evergreen) to enable [Dependabot](https://github.com/dependabot).
+
+            Dependabot helps open source maintainers automatically manage dependencies and security updates.
+
+            📖 Check out the official documentation for configuring Dependabot [here](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)!
+          COMMIT_MESSAGE: ".github: Add Dependabot configuration"
+          # CREATED_AFTER_DATE: ${{ env.ONE_WEEK_AGO }}
+          GROUP_DEPENDENCIES: true
+          ENABLE_SECURITY_UPDATES: false
