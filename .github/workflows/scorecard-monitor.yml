@@ -1,0 +1,59 @@
+name: scorecard-monitor
+
+on:
+  # Scheduled trigger
+  schedule:
+    # Run every Sunday at 00:00
+    - cron: "0 0 * * 0"
+  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: none
+  pull-requests: none
+  issues: none
+  packages: none
+
+env:
+  ORG_LIST: "bloomberg"
+  TARGET_BRANCH: "main"
+
+jobs:
+  scorecard-monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      # Required to update local files with the reports
+      contents: write
+      # Required to create pull requests
+      pull-requests: write
+      # Required to create issues
+      issues: write
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - name: 🔍 run scorecard monitor
+        uses: ossf/scorecard-monitor@a3a9c4cfa0684480ec5f86fa178fc22c4394b69e # v2.0.0-beta8
+        id: scorecard-monitor
+        with:
+          scope: reports/scorecard/scope.json
+          database: reports/scorecard/database.json
+          report: reports/scorecard/report.md
+          auto-commit: false
+          auto-push: false
+          generate-issue: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          discovery-enabled: true
+          discovery-orgs: ${{ env.ORG_LIST }}
+      - name: 🖨️ print the scores
+        run: |
+          echo '${{ steps.scorecard-monitor.outputs.scores }}'
+      - name: 🔃 create pull request
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Add latest results to Scorecard Monitor report
+          title: 🔍 Scorecard Monitor Report Update
+          body: This pull request has been automatically filed by Scorecard Monitor.
+          base: ${{ env.TARGET_BRANCH }}
+          assignees: ${{ github.actor }}
+          branch: scorecard-monitor-report-update
+          delete-branch: true
