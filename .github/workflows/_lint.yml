@@ -11,5 +11,4 @@ jobs:
       - name: 🧹 lint yaml
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: "org/**/*.yaml"
           config_file: ".yamllint.yml"
