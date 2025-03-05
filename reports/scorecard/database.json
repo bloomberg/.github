@@ -1,5 +1,174 @@
 {
   "github.com": {
-    "bloomberg": {}
+    "bloomberg": {
+      "wsk": {
+        "previous": [],
+        "current": {
+          "score": 3,
+          "date": "2025-03-03",
+          "commit": "af59a0a1b59401a24516114639f95706113257c3"
+        }
+      },
+      "python-github-webhook": {
+        "previous": [],
+        "current": {
+          "score": 3.9,
+          "date": "2025-03-03",
+          "commit": "61e713c3781e2de6e327554be54095df2d666604"
+        }
+      },
+      "tzcron": {
+        "previous": [],
+        "current": {
+          "score": 3.9,
+          "date": "2025-03-03",
+          "commit": "14ef87dd31f1227fa49b6f4c8cf596bf3182f5cf"
+        }
+      },
+      "bde": {
+        "previous": [],
+        "current": {
+          "score": 5.7,
+          "date": "2025-03-03",
+          "commit": "978f5fe2be643f35804dcd767552222a3e0682d4"
+        }
+      },
+      "blpapi-http": {
+        "previous": [],
+        "current": {
+          "score": 4.3,
+          "date": "2025-03-03",
+          "commit": "dc49f3ecdcb8b4807049129c998449c88bfcced2"
+        }
+      },
+      "blpapi-node": {
+        "previous": [],
+        "current": {
+          "score": 3.1,
+          "date": "2025-03-03",
+          "commit": "762e61d7593f6f4c24801b3ee685f27760d6b2a8"
+        }
+      },
+      "comdb2": {
+        "previous": [],
+        "current": {
+          "score": 6.5,
+          "date": "2025-03-03",
+          "commit": "78e4b6237eb308d8a003454743dbe26de492c13c"
+        }
+      },
+      "wsk-notify": {
+        "previous": [],
+        "current": {
+          "score": 3.1,
+          "date": "2025-03-03",
+          "commit": "6ccc63206c4ae05b9a38354ddd96593e09b8cd01"
+        }
+      },
+      "pycsvw": {
+        "previous": [],
+        "current": {
+          "score": 4.2,
+          "date": "2025-03-03",
+          "commit": "02cff71c8a74171b88ebb9514c0202da60cdc42a"
+        }
+      },
+      "constant.js": {
+        "previous": [],
+        "current": {
+          "score": 3,
+          "date": "2025-03-03",
+          "commit": "4250f2977da6ab74c967bdf9bdedefa9c268e43d"
+        }
+      },
+      ".github": {
+        "previous": [],
+        "current": {
+          "score": 6.3,
+          "date": "2025-03-05T02:20:37Z",
+          "commit": "3881ac1165e41ad0eeb52b4b9ded7aa5253e82ef"
+        }
+      },
+      "amqpprox": {
+        "previous": [],
+        "current": {
+          "score": 5.4,
+          "date": "2024-03-19",
+          "commit": "5b4f0521c1cafed640c56eaee6a2612641a07e01"
+        }
+      },
+      "record-tuple-polyfill": {
+        "previous": [],
+        "current": {
+          "score": 4.5,
+          "date": "2025-03-03",
+          "commit": "5f9cae34f0d331c4836efbc9cd618836c03e75f5"
+        }
+      },
+      "selekt": {
+        "previous": [],
+        "current": {
+          "score": 5.1,
+          "date": "2025-03-04T01:01:36Z",
+          "commit": "240bbc15ed32c6cf118480e512781e803887448b"
+        }
+      },
+      "go-testgroup": {
+        "previous": [],
+        "current": {
+          "score": 4.9,
+          "date": "2025-03-03",
+          "commit": "6150bb66b99b42900810089a9c784bbc808bd571"
+        }
+      },
+      "goldpinger": {
+        "previous": [],
+        "current": {
+          "score": 4.8,
+          "date": "2025-03-03",
+          "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
+        }
+      },
+      "attrs-strict": {
+        "previous": [],
+        "current": {
+          "score": 5,
+          "date": "2025-03-03",
+          "commit": "26c302b8e2cad9e10c098c3253c7d1877f89f3d4"
+        }
+      },
+      "xcdiff": {
+        "previous": [],
+        "current": {
+          "score": 7,
+          "date": "2025-03-03",
+          "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+        }
+      },
+      "metrictank": {
+        "previous": [],
+        "current": {
+          "score": 4,
+          "date": "2025-03-03",
+          "commit": "48eed3b15dce8d9d65738d106e53a6f96f05db43"
+        }
+      },
+      "pasta-sourcemaps": {
+        "previous": [],
+        "current": {
+          "score": 5.4,
+          "date": "2025-03-03",
+          "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
+        }
+      },
+      "memray": {
+        "previous": [],
+        "current": {
+          "score": 5.8,
+          "date": "2025-03-03",
+          "commit": "8e67b519fbbd2150e00f24ed852a30ed5feed76a"
+        }
+      }
+    }
   }
 }
