@@ -20,7 +20,7 @@ jobs:
       - name: 🧼 clean codeowners
         uses: github/cleanowners@62198cd4d8abcb5bed5fa4aea3b4ad4edbafacbf # v1.2.0
         env:
-          GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
+          GH_TOKEN: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           ORGANIZATION: bloomberg
           EXEMPT_REPOS: "bloomberg/.github, bloomberg/.allstar"
           DRY_RUN: true
