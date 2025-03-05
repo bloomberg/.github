@@ -1,0 +1,30 @@
+{
+  "github.com": {
+    "bloomberg": {
+      "included": [
+        "blpapi-http",
+        "bde",
+        "blpapi-node",
+        "python-github-webhook",
+        "tzcron",
+        "constant.js",
+        "comdb2",
+        "pycsvw",
+        "wsk-notify",
+        "wsk",
+        "metrictank",
+        "goldpinger",
+        "pasta-sourcemaps",
+        ".github",
+        "attrs-strict",
+        "xcdiff",
+        "record-tuple-polyfill",
+        "selekt",
+        "go-testgroup",
+        "amqpprox",
+        "memray"
+      ],
+      "excluded": []
+    }
+  }
+}
