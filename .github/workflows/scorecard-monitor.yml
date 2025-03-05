@@ -40,7 +40,7 @@ jobs:
           auto-commit: false
           auto-push: false
           generate-issue: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           discovery-enabled: true
           discovery-orgs: ${{ env.ORG_LIST }}
       - name: 🖨️ print the scores
@@ -49,7 +49,7 @@ jobs:
       - name: 🔃 create pull request
         uses: peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284 # v7.0.7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           commit-message: Add latest results to Scorecard Monitor report
           title: 🔍 Scorecard Monitor Report Update
           body: This pull request has been automatically filed by Scorecard Monitor.

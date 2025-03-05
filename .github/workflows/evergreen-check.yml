@@ -34,7 +34,7 @@ jobs:
       - name: 🌲 evergreen check
         uses: github/evergreen@ed3d1f98dda1e3a321c5e9666e59ca24ffcd290f # v1.20.2
         env:
-          GH_TOKEN: ${{ secrets.OSPO_SERVICE_TOKEN }}
+          GH_TOKEN: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           ORGANIZATION: bloomberg
           EXEMPT_REPOS: "bloomberg/.github, bloomberg/.allstar"
           TYPE: pull
