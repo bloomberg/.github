@@ -82,11 +82,17 @@
         }
       },
       ".github": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.3,
+            "date": "2025-03-05T02:20:37Z",
+            "commit": "3881ac1165e41ad0eeb52b4b9ded7aa5253e82ef"
+          }
+        ],
         "current": {
-          "score": 6.3,
-          "date": "2025-03-05T02:20:37Z",
-          "commit": "3881ac1165e41ad0eeb52b4b9ded7aa5253e82ef"
+          "score": 6.5,
+          "date": "2025-03-22T02:03:40Z",
+          "commit": "b39c98a5804871e0fed2fc2b65e9f49267f82501"
         }
       },
       "amqpprox": {
@@ -106,11 +112,17 @@
         }
       },
       "selekt": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 5.1,
+            "date": "2025-03-04T01:01:36Z",
+            "commit": "240bbc15ed32c6cf118480e512781e803887448b"
+          }
+        ],
         "current": {
-          "score": 5.1,
-          "date": "2025-03-04T01:01:36Z",
-          "commit": "240bbc15ed32c6cf118480e512781e803887448b"
+          "score": 5.3,
+          "date": "2025-03-18T11:24:09Z",
+          "commit": "5234c6a46b9d660c7163ca540052b4aa761b6bbf"
         }
       },
       "go-testgroup": {
@@ -122,10 +134,16 @@
         }
       },
       "goldpinger": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 4.8,
+            "date": "2025-03-03",
+            "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
+          }
+        ],
         "current": {
-          "score": 4.8,
-          "date": "2025-03-03",
+          "score": 4.7,
+          "date": "2025-03-17",
           "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
         }
       },
@@ -138,10 +156,16 @@
         }
       },
       "xcdiff": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 7,
+            "date": "2025-03-03",
+            "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+          }
+        ],
         "current": {
-          "score": 7,
-          "date": "2025-03-03",
+          "score": 6.9,
+          "date": "2025-03-17",
           "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
         }
       },
