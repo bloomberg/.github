@@ -39,7 +39,7 @@ jobs:
           report: reports/scorecard/report.md
           auto-commit: false
           auto-push: false
-          generate-issue: true
+          generate-issue: false
           github-token: ${{ secrets.GITHUB_TOKEN }}
           discovery-enabled: true
           discovery-orgs: ${{ env.ORG_LIST }}
