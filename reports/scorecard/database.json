@@ -201,12 +201,17 @@
             "score": 5.8,
             "date": "2025-03-03",
             "commit": "8e67b519fbbd2150e00f24ed852a30ed5feed76a"
+          },
+          {
+            "score": 5.7,
+            "date": "2025-04-07",
+            "commit": "3a2f7b5ee90d7749de3c94543971ae8c6470fc20"
           }
         ],
         "current": {
-          "score": 5.7,
-          "date": "2025-04-07",
-          "commit": "3a2f7b5ee90d7749de3c94543971ae8c6470fc20"
+          "score": 5.8,
+          "date": "2025-04-14",
+          "commit": "864fc2df02c7ccde7a0578ddf79ae062b89b3658"
         }
       }
     }
