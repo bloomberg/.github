@@ -87,12 +87,17 @@
             "score": 6.3,
             "date": "2025-03-05T02:20:37Z",
             "commit": "3881ac1165e41ad0eeb52b4b9ded7aa5253e82ef"
+          },
+          {
+            "score": 6.5,
+            "date": "2025-03-22T02:03:40Z",
+            "commit": "b39c98a5804871e0fed2fc2b65e9f49267f82501"
           }
         ],
         "current": {
-          "score": 6.5,
-          "date": "2025-03-22T02:03:40Z",
-          "commit": "b39c98a5804871e0fed2fc2b65e9f49267f82501"
+          "score": 6.4,
+          "date": "2025-04-26T02:06:29Z",
+          "commit": "ea5092062c0faaa7db888df331c2c1169e3ec274"
         }
       },
       "amqpprox": {
@@ -149,11 +154,16 @@
             "score": 4.8,
             "date": "2025-03-03",
             "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
+          },
+          {
+            "score": 4.7,
+            "date": "2025-03-17",
+            "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
           }
         ],
         "current": {
-          "score": 4.7,
-          "date": "2025-03-17",
+          "score": 4.6,
+          "date": "2025-04-21",
           "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
         }
       },
@@ -212,6 +222,22 @@
           "score": 5.8,
           "date": "2025-04-14",
           "commit": "864fc2df02c7ccde7a0578ddf79ae062b89b3658"
+        }
+      },
+      "pushiko": {
+        "previous": [],
+        "current": {
+          "score": 4.6,
+          "date": "2025-04-25T13:14:54Z",
+          "commit": "6bd96c17d98a7084305b008d081bb053e17fbee7"
+        }
+      },
+      "oss-template": {
+        "previous": [],
+        "current": {
+          "score": 5.6,
+          "date": "2025-04-26T09:42:03Z",
+          "commit": "3da5f34e619a05373832644aad4c552296bd7451"
         }
       }
     }
