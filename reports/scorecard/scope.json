@@ -22,7 +22,9 @@
         "selekt",
         "go-testgroup",
         "amqpprox",
-        "memray"
+        "memray",
+        "pushiko",
+        "oss-template"
       ],
       "excluded": []
     }
