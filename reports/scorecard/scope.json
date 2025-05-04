@@ -24,7 +24,8 @@
         "amqpprox",
         "memray",
         "pushiko",
-        "oss-template"
+        "oss-template",
+        "evaluating-cmr-in-mm"
       ],
       "excluded": []
     }
