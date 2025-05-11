@@ -25,7 +25,8 @@
         "memray",
         "pushiko",
         "oss-template",
-        "evaluating-cmr-in-mm"
+        "evaluating-cmr-in-mm",
+        "climate-credit-risk"
       ],
       "excluded": []
     }

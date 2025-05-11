@@ -92,12 +92,17 @@
             "score": 6.5,
             "date": "2025-03-22T02:03:40Z",
             "commit": "b39c98a5804871e0fed2fc2b65e9f49267f82501"
+          },
+          {
+            "score": 6.4,
+            "date": "2025-04-26T02:06:29Z",
+            "commit": "ea5092062c0faaa7db888df331c2c1169e3ec274"
           }
         ],
         "current": {
-          "score": 6.4,
-          "date": "2025-04-26T02:06:29Z",
-          "commit": "ea5092062c0faaa7db888df331c2c1169e3ec274"
+          "score": 6.5,
+          "date": "2025-05-10T02:07:56Z",
+          "commit": "8e3de6d7ff2cd581a329720530ddadaa550b24f0"
         }
       },
       "amqpprox": {
@@ -257,6 +262,14 @@
           "score": 6.7,
           "date": "2025-05-03T02:09:26Z",
           "commit": "0b71db9cf16f9b5d9cd536f7a5a42b0bd1174801"
+        }
+      },
+      "climate-credit-risk": {
+        "previous": [],
+        "current": {
+          "score": 6.1,
+          "date": "2025-05-10T02:06:33Z",
+          "commit": "a5c85cd26a422385adf67a28de7691b22e4abbc1"
         }
       }
     }
