@@ -142,12 +142,17 @@
             "score": 5.1,
             "date": "2025-04-08T01:01:48Z",
             "commit": "5234c6a46b9d660c7163ca540052b4aa761b6bbf"
+          },
+          {
+            "score": 5.2,
+            "date": "2025-04-29T01:01:49Z",
+            "commit": "62990dce036167394160d73245643445aaabad5e"
           }
         ],
         "current": {
-          "score": 5.2,
-          "date": "2025-04-29T01:01:49Z",
-          "commit": "62990dce036167394160d73245643445aaabad5e"
+          "score": 5.9,
+          "date": "2025-05-14T02:18:11Z",
+          "commit": "8f0e1dabdab95250d60e4da738de43f0dfd13ab9"
         }
       },
       "go-testgroup": {
@@ -191,11 +196,16 @@
             "score": 7,
             "date": "2025-03-03",
             "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+          },
+          {
+            "score": 6.9,
+            "date": "2025-03-17",
+            "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
           }
         ],
         "current": {
-          "score": 6.9,
-          "date": "2025-03-17",
+          "score": 6.8,
+          "date": "2025-05-12",
           "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
         }
       },
@@ -257,10 +267,16 @@
         }
       },
       "evaluating-cmr-in-mm": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.7,
+            "date": "2025-05-03T02:09:26Z",
+            "commit": "0b71db9cf16f9b5d9cd536f7a5a42b0bd1174801"
+          }
+        ],
         "current": {
-          "score": 6.7,
-          "date": "2025-05-03T02:09:26Z",
+          "score": 6.6,
+          "date": "2025-05-17T02:11:23Z",
           "commit": "0b71db9cf16f9b5d9cd536f7a5a42b0bd1174801"
         }
       },
