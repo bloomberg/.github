@@ -20,12 +20,15 @@ on:
         required: false
         default: "keep"
 
+permissions:
+  contents: read
+
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
       - name: 📆 mark stale activity
-        uses: actions/stale@v9
+        uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639 # v9.1.0
         with:
           repo-token: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           days-before-stale: ${{ inputs.days-until-stale }}
