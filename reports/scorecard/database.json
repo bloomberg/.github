@@ -56,11 +56,17 @@
         }
       },
       "comdb2": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.5,
+            "date": "2025-03-03",
+            "commit": "78e4b6237eb308d8a003454743dbe26de492c13c"
+          }
+        ],
         "current": {
-          "score": 6.5,
-          "date": "2025-03-03",
-          "commit": "78e4b6237eb308d8a003454743dbe26de492c13c"
+          "score": 6.3,
+          "date": "2025-08-25",
+          "commit": "d3c9e473fc4b92a055dc3619eb02226bdf90c94e"
         }
       },
       "wsk-notify": {
@@ -128,12 +134,17 @@
             "score": 6.2,
             "date": "2025-08-09T02:14:08Z",
             "commit": "5da4b2b6d9c96c21415ed04bbff3146335c02bf0"
+          },
+          {
+            "score": 7.1,
+            "date": "2025-08-16T02:12:39Z",
+            "commit": "b8f24a12a9597837fb39841646b9f41a0cc5ea4b"
           }
         ],
         "current": {
-          "score": 7.1,
-          "date": "2025-08-16T02:12:39Z",
-          "commit": "b8f24a12a9597837fb39841646b9f41a0cc5ea4b"
+          "score": 7.2,
+          "date": "2025-08-30T02:03:03Z",
+          "commit": "ade3b052be8de8f7ae2fc6bd248d592f18b9ddba"
         }
       },
       "amqpprox": {
