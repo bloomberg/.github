@@ -31,12 +31,17 @@
             "score": 5.7,
             "date": "2025-03-03",
             "commit": "978f5fe2be643f35804dcd767552222a3e0682d4"
+          },
+          {
+            "score": 6,
+            "date": "2025-07-21",
+            "commit": "ea8f419c8ba463e9fe8ef840da7f428fadb0ca65"
           }
         ],
         "current": {
-          "score": 6,
-          "date": "2025-07-21",
-          "commit": "ea8f419c8ba463e9fe8ef840da7f428fadb0ca65"
+          "score": 5.8,
+          "date": "2025-09-01",
+          "commit": "7ece762adb96324a5ba7a86b13f90f48f1fa6fda"
         }
       },
       "blpapi-http": {
@@ -139,12 +144,17 @@
             "score": 7.1,
             "date": "2025-08-16T02:12:39Z",
             "commit": "b8f24a12a9597837fb39841646b9f41a0cc5ea4b"
+          },
+          {
+            "score": 7.2,
+            "date": "2025-08-30T02:03:03Z",
+            "commit": "ade3b052be8de8f7ae2fc6bd248d592f18b9ddba"
           }
         ],
         "current": {
-          "score": 7.2,
-          "date": "2025-08-30T02:03:03Z",
-          "commit": "ade3b052be8de8f7ae2fc6bd248d592f18b9ddba"
+          "score": 7.3,
+          "date": "2025-09-06T02:02:42Z",
+          "commit": "2cc9aef730a32909203ad6ee3d33ff143d509313"
         }
       },
       "amqpprox": {
