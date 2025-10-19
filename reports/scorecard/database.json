@@ -149,12 +149,17 @@
             "score": 7.2,
             "date": "2025-08-30T02:03:03Z",
             "commit": "ade3b052be8de8f7ae2fc6bd248d592f18b9ddba"
+          },
+          {
+            "score": 7.3,
+            "date": "2025-09-06T02:02:42Z",
+            "commit": "2cc9aef730a32909203ad6ee3d33ff143d509313"
           }
         ],
         "current": {
-          "score": 7.3,
-          "date": "2025-09-06T02:02:42Z",
-          "commit": "2cc9aef730a32909203ad6ee3d33ff143d509313"
+          "score": 7.2,
+          "date": "2025-10-18T02:02:28Z",
+          "commit": "15e7b39d65e8d3c849b1595d87e9cbc3f107c52a"
         }
       },
       "amqpprox": {
@@ -269,12 +274,17 @@
             "score": 6.8,
             "date": "2025-05-12",
             "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+          },
+          {
+            "score": 6.6,
+            "date": "2025-06-02",
+            "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
           }
         ],
         "current": {
-          "score": 6.6,
-          "date": "2025-06-02",
-          "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+          "score": 7,
+          "date": "2025-10-13",
+          "commit": "c2b9cab9f85fe1f1e96ce51d3678f565d3aa8c96"
         }
       },
       "metrictank": {
