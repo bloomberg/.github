@@ -47,9 +47,9 @@ jobs:
           discovery-orgs: ${{ env.ORG_LIST }}
       - name: 🖨️ print the scores
         run: |
-          echo '${STEPS_SCORECARD_MONITOR_OUTPUTS_SCORES}'
+          echo "${SCORECARD_SCORES}"
         env:
-          STEPS_SCORECARD_MONITOR_OUTPUTS_SCORES: ${{ steps.scorecard-monitor.outputs.scores }}
+          SCORECARD_SCORES: ${{ steps.scorecard-monitor.outputs.scores }}
       - name: 🔃 create pull request
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
