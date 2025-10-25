@@ -31,3 +31,4 @@ jobs:
           YAML_CONFIG_FILE: ".yamllint.yml"
           VALIDATE_ALL_CODEBASE: false
           MULTI_STATUS: false
+          VALIDATE_BIOME_FORMAT: false # TODO(lint): Consider enabling Biome formatting after testing
