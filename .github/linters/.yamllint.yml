@@ -7,4 +7,4 @@ rules:
     spaces: consistent
   line-length: disable
   truthy:
-    allowed-values: ["true", "false", "on"]
+    check-keys: false
