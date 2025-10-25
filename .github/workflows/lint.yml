@@ -15,4 +15,3 @@ jobs:
       contents: read
       packages: read
       statuses: write
-    secrets: inherit
