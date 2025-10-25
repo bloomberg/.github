@@ -1,6 +1,7 @@
 ---
 extends: default
 rules:
+  comments: disable
   document-start: disable
   indentation:
     spaces: consistent

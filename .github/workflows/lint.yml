@@ -9,7 +9,7 @@ on:
 permissions: read-all
 
 jobs:
-  lint:
+  reusable-lint:
     uses: ./.github/workflows/_lint.yml
     permissions:
       contents: read
