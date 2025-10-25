@@ -2,9 +2,9 @@ name: contributor-report
 
 on:
   # Scheduled trigger
-  schedule:
+  #schedule: TODO(actions): Uncomment once API rate limit 403s are investigated
     # Run the first day of the month at 00:00
-    - cron: "0 0 1 * *"
+    #- cron: "0 0 1 * *"
   # Manual trigger
   workflow_dispatch:
 

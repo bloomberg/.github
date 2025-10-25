@@ -2,9 +2,9 @@ name: evergreen-check
 
 on:
   # Scheduled trigger
-  schedule:
+  #schedule: TODO(actions): Enable once ready to configure
     # Run weekly on Saturdays
-    - cron: "30 1 * * 6"
+    #- cron: "30 1 * * 6"
   # Manual trigger
   workflow_dispatch:
 
