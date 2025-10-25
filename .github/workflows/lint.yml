@@ -1,0 +1,17 @@
+name: lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions: read-all
+
+jobs:
+  reusable-lint:
+    uses: ./.github/workflows/_lint.yml
+    permissions:
+      contents: read
+      packages: read
+      statuses: write

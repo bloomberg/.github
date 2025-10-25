@@ -17,11 +17,13 @@ jobs:
       - name: 🔒 harden runner
         uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
         with:
-            egress-policy: audit
+          egress-policy: audit
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
       - name: 🔂 dependency review
         uses: actions/dependency-review-action@40c09b7dc99638e5ddb0bfd91c1673effc064d8a # v4.8.1
         with:
-            deny-licenses: AGPL-3.0
-            fail-on-severity: moderate
-            comment-summary-in-pr: true
+          deny-licenses: AGPL-3.0
+          fail-on-severity: moderate
+          comment-summary-in-pr: true
