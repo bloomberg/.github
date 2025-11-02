@@ -26,7 +26,8 @@
         "pushiko",
         "oss-template",
         "evaluating-cmr-in-mm",
-        "climate-credit-risk"
+        "climate-credit-risk",
+        "stricli"
       ],
       "excluded": []
     }
