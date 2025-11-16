@@ -330,12 +330,17 @@
             "score": 5.7,
             "date": "2025-04-07",
             "commit": "3a2f7b5ee90d7749de3c94543971ae8c6470fc20"
+          },
+          {
+            "score": 5.8,
+            "date": "2025-04-14",
+            "commit": "864fc2df02c7ccde7a0578ddf79ae062b89b3658"
           }
         ],
         "current": {
-          "score": 5.8,
-          "date": "2025-04-14",
-          "commit": "864fc2df02c7ccde7a0578ddf79ae062b89b3658"
+          "score": 6.2,
+          "date": "2025-11-10",
+          "commit": "fc58b041a5cbc8ce58c185b3ee432d2749e4837a"
         }
       },
       "pushiko": {
