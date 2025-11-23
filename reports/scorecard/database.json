@@ -311,11 +311,16 @@
             "score": 5.4,
             "date": "2025-03-03",
             "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
+          },
+          {
+            "score": 5.3,
+            "date": "2025-06-30",
+            "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
           }
         ],
         "current": {
-          "score": 5.3,
-          "date": "2025-06-30",
+          "score": 5.2,
+          "date": "2025-11-17",
           "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
         }
       },
@@ -335,12 +340,17 @@
             "score": 5.8,
             "date": "2025-04-14",
             "commit": "864fc2df02c7ccde7a0578ddf79ae062b89b3658"
+          },
+          {
+            "score": 6.2,
+            "date": "2025-11-10",
+            "commit": "fc58b041a5cbc8ce58c185b3ee432d2749e4837a"
           }
         ],
         "current": {
-          "score": 6.2,
-          "date": "2025-11-10",
-          "commit": "fc58b041a5cbc8ce58c185b3ee432d2749e4837a"
+          "score": 6.1,
+          "date": "2025-11-17",
+          "commit": "ef2a9c604bad777ecb07afdaf739fc3ba464d203"
         }
       },
       "pushiko": {
