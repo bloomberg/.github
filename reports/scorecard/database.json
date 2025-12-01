@@ -164,12 +164,17 @@
             "score": 8,
             "date": "2025-10-25T06:50:42Z",
             "commit": "43683a60b48ea1efaa027b4ea12010896aae6701"
+          },
+          {
+            "score": 8.1,
+            "date": "2025-11-01T02:12:14Z",
+            "commit": "70fc7b43ef1e86d56dd0eb919d0767437ffb04ae"
           }
         ],
         "current": {
-          "score": 8.1,
-          "date": "2025-11-01T02:12:14Z",
-          "commit": "70fc7b43ef1e86d56dd0eb919d0767437ffb04ae"
+          "score": 8.2,
+          "date": "2025-11-29T02:10:10Z",
+          "commit": "96777c78395f559767d602f7959611e123c85ba3"
         }
       },
       "amqpprox": {
