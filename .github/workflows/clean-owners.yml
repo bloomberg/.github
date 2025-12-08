@@ -18,7 +18,7 @@ jobs:
         issues: write
     steps:
       - name: 🧼 clean codeowners
-        uses: github/cleanowners@5128e4614bd2f1820cdc670392eb5d6a365b3b64 # v1.2.9
+        uses: github/cleanowners@012102f0cfe38781948400f15f4c03747b0247bc # v1.2.12
         env:
           GH_TOKEN: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           ORGANIZATION: bloomberg
