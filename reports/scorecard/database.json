@@ -294,11 +294,16 @@
             "score": 6.6,
             "date": "2025-06-02",
             "commit": "99301ee4578224f0660a1312abc465c5a37176c5"
+          },
+          {
+            "score": 7,
+            "date": "2025-10-13",
+            "commit": "c2b9cab9f85fe1f1e96ce51d3678f565d3aa8c96"
           }
         ],
         "current": {
-          "score": 7,
-          "date": "2025-10-13",
+          "score": 6.6,
+          "date": "2026-01-05",
           "commit": "c2b9cab9f85fe1f1e96ce51d3678f565d3aa8c96"
         }
       },
@@ -464,11 +469,17 @@
         }
       },
       "stricli": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6,
+            "date": "2025-11-01T02:09:48Z",
+            "commit": "2c8b1976e55bd58c7a573a8e3a2d2b4507ca1381"
+          }
+        ],
         "current": {
-          "score": 6,
-          "date": "2025-11-01T02:09:48Z",
-          "commit": "2c8b1976e55bd58c7a573a8e3a2d2b4507ca1381"
+          "score": 6.9,
+          "date": "2026-01-10T02:12:40Z",
+          "commit": "e8ce872e4a536ee27bad3a97ae67bfe1e2ab37c0"
         }
       }
     }
