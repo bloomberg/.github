@@ -169,12 +169,17 @@
             "score": 8.1,
             "date": "2025-11-01T02:12:14Z",
             "commit": "70fc7b43ef1e86d56dd0eb919d0767437ffb04ae"
+          },
+          {
+            "score": 8.2,
+            "date": "2025-11-29T02:10:10Z",
+            "commit": "96777c78395f559767d602f7959611e123c85ba3"
           }
         ],
         "current": {
-          "score": 8.2,
-          "date": "2025-11-29T02:10:10Z",
-          "commit": "96777c78395f559767d602f7959611e123c85ba3"
+          "score": 7.8,
+          "date": "2026-01-24T02:15:05Z",
+          "commit": "1d1afd9edd043bce70f7ae5b2df18de9b97cff7a"
         }
       },
       "amqpprox": {
