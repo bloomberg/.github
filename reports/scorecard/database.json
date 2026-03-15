@@ -298,12 +298,17 @@
             "score": 6,
             "date": "2025-06-03T01:02:06Z",
             "commit": "8f0e1dabdab95250d60e4da738de43f0dfd13ab9"
+          },
+          {
+            "score": 6.7,
+            "date": "2026-02-17T01:03:11Z",
+            "commit": "453b3cb30cf97344292cc530146308478fe59759"
           }
         ],
         "current": {
-          "score": 6.7,
-          "date": "2026-02-17T01:03:11Z",
-          "commit": "453b3cb30cf97344292cc530146308478fe59759"
+          "score": 6.6,
+          "date": "2026-03-14T18:43:01Z",
+          "commit": "9fba5b2d37f188d290abe04ff69c80eedd187261"
         }
       },
       "go-testgroup": {
@@ -394,12 +399,17 @@
             "score": 6.6,
             "date": "2026-01-05",
             "commit": "c2b9cab9f85fe1f1e96ce51d3678f565d3aa8c96"
+          },
+          {
+            "score": 6.2,
+            "date": "2026-02-16",
+            "commit": "00308d6b5751f85f8467f38bc18138569c29b137"
           }
         ],
         "current": {
-          "score": 6.2,
-          "date": "2026-02-16",
-          "commit": "00308d6b5751f85f8467f38bc18138569c29b137"
+          "score": 6.3,
+          "date": "2026-03-09",
+          "commit": "97b5f4d075e831e447c843fffa2259526f5977d7"
         }
       },
       "metrictank": {
