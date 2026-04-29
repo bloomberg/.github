@@ -336,12 +336,17 @@
             "score": 4.6,
             "date": "2025-04-21",
             "commit": "02065cf8128f4e77e06d542ef658fd3f0bf457cd"
+          },
+          {
+            "score": 5,
+            "date": "2026-02-16",
+            "commit": "8d63d44fe29a3ce1f0d9a0befc45ab7be978b0cd"
           }
         ],
         "current": {
-          "score": 5,
-          "date": "2026-02-16",
-          "commit": "8d63d44fe29a3ce1f0d9a0befc45ab7be978b0cd"
+          "score": 5.2,
+          "date": "2026-04-20",
+          "commit": "fdb70968b886d341de2ea9300058ab308186717f"
         }
       },
       "attrs-strict": {
@@ -399,11 +404,16 @@
             "score": 6.2,
             "date": "2026-02-16",
             "commit": "00308d6b5751f85f8467f38bc18138569c29b137"
+          },
+          {
+            "score": 6.3,
+            "date": "2026-03-23",
+            "commit": "97b5f4d075e831e447c843fffa2259526f5977d7"
           }
         ],
         "current": {
-          "score": 6.3,
-          "date": "2026-03-23",
+          "score": 6.2,
+          "date": "2026-04-20",
           "commit": "97b5f4d075e831e447c843fffa2259526f5977d7"
         }
       },
@@ -466,12 +476,17 @@
             "score": 6.1,
             "date": "2025-11-17",
             "commit": "ef2a9c604bad777ecb07afdaf739fc3ba464d203"
+          },
+          {
+            "score": 6.4,
+            "date": "2026-02-16",
+            "commit": "6ebe067a4b1d45abfc2011a1790dab4dac085c97"
           }
         ],
         "current": {
-          "score": 6.4,
-          "date": "2026-02-16",
-          "commit": "6ebe067a4b1d45abfc2011a1790dab4dac085c97"
+          "score": 6.3,
+          "date": "2026-04-20",
+          "commit": "d2eb124491e88ec35755965255552aba7878cd3c"
         }
       },
       "pushiko": {
@@ -590,12 +605,17 @@
             "score": 6.9,
             "date": "2026-01-10T02:12:40Z",
             "commit": "e8ce872e4a536ee27bad3a97ae67bfe1e2ab37c0"
+          },
+          {
+            "score": 7,
+            "date": "2026-02-21T02:13:28Z",
+            "commit": "5ed8ef3327db19f5a67e9e3ad5aa0c4f8c2c90d9"
           }
         ],
         "current": {
-          "score": 7,
-          "date": "2026-02-21T02:13:28Z",
-          "commit": "5ed8ef3327db19f5a67e9e3ad5aa0c4f8c2c90d9"
+          "score": 7.1,
+          "date": "2026-04-25T02:14:26Z",
+          "commit": "b0214c64e7a8add605041cbca55d338bab94f7ac"
         }
       }
     }
