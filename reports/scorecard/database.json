@@ -298,12 +298,17 @@
             "score": 6,
             "date": "2025-06-03T01:02:06Z",
             "commit": "8f0e1dabdab95250d60e4da738de43f0dfd13ab9"
+          },
+          {
+            "score": 6.7,
+            "date": "2026-02-17T01:03:11Z",
+            "commit": "453b3cb30cf97344292cc530146308478fe59759"
           }
         ],
         "current": {
-          "score": 6.7,
-          "date": "2026-02-17T01:03:11Z",
-          "commit": "453b3cb30cf97344292cc530146308478fe59759"
+          "score": 6.6,
+          "date": "2026-06-06T14:46:49Z",
+          "commit": "2e3f4d6823740f43cd61c67e92ff1aa9088c519f"
         }
       },
       "go-testgroup": {
@@ -481,12 +486,17 @@
             "score": 6.4,
             "date": "2026-02-16",
             "commit": "6ebe067a4b1d45abfc2011a1790dab4dac085c97"
+          },
+          {
+            "score": 6.3,
+            "date": "2026-04-20",
+            "commit": "d2eb124491e88ec35755965255552aba7878cd3c"
           }
         ],
         "current": {
-          "score": 6.3,
-          "date": "2026-04-20",
-          "commit": "d2eb124491e88ec35755965255552aba7878cd3c"
+          "score": 8.1,
+          "date": "2026-06-01",
+          "commit": "e15c16a264a198779cc28caed3b59c337871c350"
         }
       },
       "pushiko": {
@@ -610,12 +620,17 @@
             "score": 7,
             "date": "2026-02-21T02:13:28Z",
             "commit": "5ed8ef3327db19f5a67e9e3ad5aa0c4f8c2c90d9"
+          },
+          {
+            "score": 7.1,
+            "date": "2026-04-25T02:14:26Z",
+            "commit": "b0214c64e7a8add605041cbca55d338bab94f7ac"
           }
         ],
         "current": {
-          "score": 7.1,
-          "date": "2026-04-25T02:14:26Z",
-          "commit": "b0214c64e7a8add605041cbca55d338bab94f7ac"
+          "score": 7.2,
+          "date": "2026-06-06T02:15:51Z",
+          "commit": "ed0d85ed6806e6dfc38078c8746f73fa189acbc2"
         }
       }
     }
