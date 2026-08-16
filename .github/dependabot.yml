@@ -9,9 +9,13 @@ updates:
         exclude-patterns:
           - "actions/*"
           - "github/*"
+          - "github-community-projects/*"
       github-owned-actions:
         patterns:
           - "actions/*"
           - "github/*"
+          - "github-community-projects/*"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 7
