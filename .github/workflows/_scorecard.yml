@@ -20,7 +20,7 @@ jobs:
       id-token: write
       security-events: write
     steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: ✅ run scorecard analysis
@@ -31,12 +31,12 @@ jobs:
           repo_token: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           publish_results: ${{ inputs.publish-results }}
       - name: ⏫ upload sarif artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SARIF file
           path: results.sarif
           retention-days: 5
       - name: 📦 upload sarif results
-        uses: github/codeql-action/upload-sarif@16140ae1a102900babc80a33c44059580f687047 # v4.30.9
+        uses: github/codeql-action/upload-sarif@ff2f1c621b7f889edc0d3c761ac2e6a3f8cdb0dd # v4.37.7
         with:
           sarif_file: results.sarif
