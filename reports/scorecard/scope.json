@@ -27,7 +27,8 @@
         "oss-template",
         "evaluating-cmr-in-mm",
         "climate-credit-risk",
-        "stricli"
+        "stricli",
+        "causal-ts"
       ],
       "excluded": []
     }
