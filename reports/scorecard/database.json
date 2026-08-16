@@ -106,12 +106,17 @@
             "score": 6.3,
             "date": "2025-08-25",
             "commit": "d3c9e473fc4b92a055dc3619eb02226bdf90c94e"
+          },
+          {
+            "score": 5.9,
+            "date": "2026-02-16",
+            "commit": "062858ea6e710b9dc644991b49b25d4cb6010006"
           }
         ],
         "current": {
-          "score": 5.9,
-          "date": "2026-02-16",
-          "commit": "062858ea6e710b9dc644991b49b25d4cb6010006"
+          "score": 6.2,
+          "date": "2026-08-10",
+          "commit": "9f0e1928afb7f8df123346f88b81cc58c5e36b06"
         }
       },
       "wsk-notify": {
@@ -303,12 +308,17 @@
             "score": 6.7,
             "date": "2026-02-17T01:03:11Z",
             "commit": "453b3cb30cf97344292cc530146308478fe59759"
+          },
+          {
+            "score": 6.6,
+            "date": "2026-06-06T14:46:49Z",
+            "commit": "2e3f4d6823740f43cd61c67e92ff1aa9088c519f"
           }
         ],
         "current": {
-          "score": 6.6,
-          "date": "2026-06-06T14:46:49Z",
-          "commit": "2e3f4d6823740f43cd61c67e92ff1aa9088c519f"
+          "score": 7.6,
+          "date": "2026-08-13T07:17:28Z",
+          "commit": "1b74561313a8aec387dc78f60bbe5d7ab643229a"
         }
       },
       "go-testgroup": {
@@ -346,12 +356,17 @@
             "score": 5,
             "date": "2026-02-16",
             "commit": "8d63d44fe29a3ce1f0d9a0befc45ab7be978b0cd"
+          },
+          {
+            "score": 5.2,
+            "date": "2026-04-20",
+            "commit": "fdb70968b886d341de2ea9300058ab308186717f"
           }
         ],
         "current": {
-          "score": 5.2,
-          "date": "2026-04-20",
-          "commit": "fdb70968b886d341de2ea9300058ab308186717f"
+          "score": 4.2,
+          "date": "2026-08-10",
+          "commit": "6f2fec60743f13d2235345b09ffc4f797d617bd9"
         }
       },
       "attrs-strict": {
@@ -447,12 +462,17 @@
             "score": 5.3,
             "date": "2025-06-30",
             "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
+          },
+          {
+            "score": 5.2,
+            "date": "2025-11-17",
+            "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
           }
         ],
         "current": {
-          "score": 5.2,
-          "date": "2025-11-17",
-          "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
+          "score": 5.9,
+          "date": "2026-08-10",
+          "commit": "f0327e7e65035cf4936f1e5c7ebedc8dacd4d1b4"
         }
       },
       "memray": {
@@ -491,20 +511,31 @@
             "score": 6.3,
             "date": "2026-04-20",
             "commit": "d2eb124491e88ec35755965255552aba7878cd3c"
+          },
+          {
+            "score": 8.1,
+            "date": "2026-06-01",
+            "commit": "e15c16a264a198779cc28caed3b59c337871c350"
           }
         ],
         "current": {
-          "score": 8.1,
-          "date": "2026-06-01",
-          "commit": "e15c16a264a198779cc28caed3b59c337871c350"
+          "score": 8.6,
+          "date": "2026-08-10",
+          "commit": "f70db8143c7601ca55b4b219e50577a3f06e38ea"
         }
       },
       "pushiko": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 4.6,
+            "date": "2025-04-25T13:14:54Z",
+            "commit": "6bd96c17d98a7084305b008d081bb053e17fbee7"
+          }
+        ],
         "current": {
-          "score": 4.6,
-          "date": "2025-04-25T13:14:54Z",
-          "commit": "6bd96c17d98a7084305b008d081bb053e17fbee7"
+          "score": 6.8,
+          "date": "2026-08-13T04:57:29Z",
+          "commit": "4b96861dafb0006019a08403a092a75fddc554c9"
         }
       },
       "oss-template": {
@@ -631,6 +662,14 @@
           "score": 7.2,
           "date": "2026-06-06T02:15:51Z",
           "commit": "ed0d85ed6806e6dfc38078c8746f73fa189acbc2"
+        }
+      },
+      "causal-ts": {
+        "previous": [],
+        "current": {
+          "score": 6.5,
+          "date": "2026-08-15T02:00:04Z",
+          "commit": "38516aef2388bcd19c156c9daecd0d7f656a9b39"
         }
       }
     }
