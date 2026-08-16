@@ -19,6 +19,10 @@ jobs:
     permissions:
       id-token: write
       security-events: write
+      contents: read
+      issues: read
+      pull-requests: read
+      checks: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -28,7 +32,6 @@ jobs:
         with:
           results_file: results.sarif
           results_format: sarif
-          repo_token: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           publish_results: ${{ inputs.publish-results }}
       - name: ⏫ upload sarif artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
