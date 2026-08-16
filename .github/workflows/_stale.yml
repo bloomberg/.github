@@ -49,7 +49,7 @@ jobs:
             marked as `stale` because it has no recent activity in the last
             ${{ inputs.days-until-stale }} days. It will be closed in
             ${{ inputs.days-until-close }} days, if no further activity occurs.
-            If this pull request is still relevant, please leave a comment to 
+            If this pull request is still relevant, please leave a comment to
             let us know, and the `stale` label will be automatically removed.
           close-issue-message: >
             This issue has been marked `stale` for ${{ inputs.days-until-close }}

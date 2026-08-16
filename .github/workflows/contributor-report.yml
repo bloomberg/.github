@@ -3,8 +3,8 @@ name: contributor-report
 on:
   # Scheduled trigger
   #schedule: TODO(actions): Uncomment once API rate limit 403s are investigated
-    # Run the first day of the month at 00:00
-    #- cron: "0 0 1 * *"
+  # Run the first day of the month at 00:00
+  #- cron: "0 0 1 * *"
   # Manual trigger
   workflow_dispatch:
 
@@ -17,13 +17,10 @@ jobs:
     strategy:
       matrix:
         # Define orgs to report contributor activity
-        org:
-          [
-            "bloomberg",
-          ]
+        org: ["bloomberg"]
     permissions:
-        # Required to create contributor report
-        issues: write
+      # Required to create contributor report
+      issues: write
     steps:
       - name: 📅 calculate date
         shell: bash
