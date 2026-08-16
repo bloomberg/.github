@@ -3,8 +3,8 @@ name: evergreen-check
 on:
   # Scheduled trigger
   #schedule: TODO(actions): Enable once ready to configure
-    # Run weekly on Saturdays
-    #- cron: "30 1 * * 6"
+  # Run weekly on Saturdays
+  #- cron: "30 1 * * 6"
   # Manual trigger
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
       #     # Create env variable for next step
       #     echo "ONE_WEEK_AGO=$PREVIOUS_DATE" >> "$GITHUB_ENV"
       - name: 🌲 evergreen check
-        uses: github/evergreen@de85d31b3656847d97c180ac572307b401ec0776 # v1.24.5
+        uses: github-community-projects/evergreen@dfb194ca632ee2be3e8675d1e712383495ba058a # v2.3.9
         env:
           GH_TOKEN: ${{ secrets.BLOOMBERG_OSS_USER_TOKEN_READ }}
           ORGANIZATION: bloomberg
@@ -40,7 +40,7 @@ jobs:
           TYPE: pull
           TITLE: ".github: Add Dependabot configuration"
           BODY: |
-            👋 This pull request was generated using GitHub's [Evergreen Action](https://github.com/github/evergreen) to enable [Dependabot](https://github.com/dependabot).
+            👋 This pull request was generated using GitHub's [Evergreen Action](https://github.com/github-community-projects/evergreen) to enable [Dependabot](https://github.com/dependabot).
 
             Dependabot helps open source maintainers automatically manage dependencies and security updates.
 
