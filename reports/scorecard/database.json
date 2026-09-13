@@ -313,12 +313,17 @@
             "score": 6.6,
             "date": "2026-06-06T14:46:49Z",
             "commit": "2e3f4d6823740f43cd61c67e92ff1aa9088c519f"
+          },
+          {
+            "score": 7.6,
+            "date": "2026-08-13T07:17:28Z",
+            "commit": "1b74561313a8aec387dc78f60bbe5d7ab643229a"
           }
         ],
         "current": {
-          "score": 7.6,
-          "date": "2026-08-13T07:17:28Z",
-          "commit": "1b74561313a8aec387dc78f60bbe5d7ab643229a"
+          "score": 7.8,
+          "date": "2026-09-12T15:40:38Z",
+          "commit": "84252be90dae6f97a9b8482be9b13d58140bf440"
         }
       },
       "go-testgroup": {
@@ -530,12 +535,17 @@
             "score": 4.6,
             "date": "2025-04-25T13:14:54Z",
             "commit": "6bd96c17d98a7084305b008d081bb053e17fbee7"
+          },
+          {
+            "score": 6.8,
+            "date": "2026-08-13T04:57:29Z",
+            "commit": "4b96861dafb0006019a08403a092a75fddc554c9"
           }
         ],
         "current": {
-          "score": 6.8,
-          "date": "2026-08-13T04:57:29Z",
-          "commit": "4b96861dafb0006019a08403a092a75fddc554c9"
+          "score": 7.2,
+          "date": "2026-09-10T04:31:09Z",
+          "commit": "4e3a8d67300e0d50be10e7826ee10545c500fc99"
         }
       },
       "oss-template": {
@@ -670,6 +680,30 @@
           "score": 6.5,
           "date": "2026-08-15T02:00:04Z",
           "commit": "38516aef2388bcd19c156c9daecd0d7f656a9b39"
+        }
+      },
+      "blazingmq-sdk-python": {
+        "previous": [],
+        "current": {
+          "score": 7,
+          "date": "2026-09-12T01:39:55Z",
+          "commit": "eaabd7fe1aee51178ca94cd619d488886f3fd72d"
+        }
+      },
+      "blazingmq-sdk-java": {
+        "previous": [],
+        "current": {
+          "score": 8.3,
+          "date": "2026-09-12T01:39:55Z",
+          "commit": "aa24841d676e2b23b77de1efed1fdd28940ba566"
+        }
+      },
+      "blazingmq": {
+        "previous": [],
+        "current": {
+          "score": 9.3,
+          "date": "2026-09-12T01:35:14Z",
+          "commit": "3d9a71f1f74fd96e177469c7d5e076b9c478d82d"
         }
       }
     }
