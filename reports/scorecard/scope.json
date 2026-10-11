@@ -28,7 +28,10 @@
         "evaluating-cmr-in-mm",
         "climate-credit-risk",
         "stricli",
-        "causal-ts"
+        "causal-ts",
+        "blazingmq-sdk-java",
+        "blazingmq",
+        "blazingmq-sdk-python"
       ],
       "excluded": []
     }
