@@ -313,12 +313,17 @@
             "score": 6.6,
             "date": "2026-06-06T14:46:49Z",
             "commit": "2e3f4d6823740f43cd61c67e92ff1aa9088c519f"
+          },
+          {
+            "score": 7.6,
+            "date": "2026-08-13T07:17:28Z",
+            "commit": "1b74561313a8aec387dc78f60bbe5d7ab643229a"
           }
         ],
         "current": {
-          "score": 7.6,
-          "date": "2026-08-13T07:17:28Z",
-          "commit": "1b74561313a8aec387dc78f60bbe5d7ab643229a"
+          "score": 7.5,
+          "date": "2026-10-17T17:24:13Z",
+          "commit": "11951e288bf8c2566ad52a971a24d0114986ef07"
         }
       },
       "go-testgroup": {
@@ -361,12 +366,17 @@
             "score": 5.2,
             "date": "2026-04-20",
             "commit": "fdb70968b886d341de2ea9300058ab308186717f"
+          },
+          {
+            "score": 4.2,
+            "date": "2026-08-10",
+            "commit": "6f2fec60743f13d2235345b09ffc4f797d617bd9"
           }
         ],
         "current": {
-          "score": 4.2,
-          "date": "2026-08-10",
-          "commit": "6f2fec60743f13d2235345b09ffc4f797d617bd9"
+          "score": 5,
+          "date": "2026-10-12",
+          "commit": "e2023f2d911e40c038d85f784d11766b8469924c"
         }
       },
       "attrs-strict": {
@@ -467,11 +477,16 @@
             "score": 5.2,
             "date": "2025-11-17",
             "commit": "55125fedb47f3790a9a22f24080317d999ad6a5e"
+          },
+          {
+            "score": 5.9,
+            "date": "2026-08-10",
+            "commit": "f0327e7e65035cf4936f1e5c7ebedc8dacd4d1b4"
           }
         ],
         "current": {
-          "score": 5.9,
-          "date": "2026-08-10",
+          "score": 5.6,
+          "date": "2026-10-12",
           "commit": "f0327e7e65035cf4936f1e5c7ebedc8dacd4d1b4"
         }
       },
@@ -530,12 +545,17 @@
             "score": 4.6,
             "date": "2025-04-25T13:14:54Z",
             "commit": "6bd96c17d98a7084305b008d081bb053e17fbee7"
+          },
+          {
+            "score": 6.8,
+            "date": "2026-08-13T04:57:29Z",
+            "commit": "4b96861dafb0006019a08403a092a75fddc554c9"
           }
         ],
         "current": {
-          "score": 6.8,
-          "date": "2026-08-13T04:57:29Z",
-          "commit": "4b96861dafb0006019a08403a092a75fddc554c9"
+          "score": 6.7,
+          "date": "2026-10-15T04:31:40Z",
+          "commit": "fc04faf083c3969f2843ac8b6ef685ba3d4a6eda"
         }
       },
       "oss-template": {
@@ -665,11 +685,41 @@
         }
       },
       "causal-ts": {
+        "previous": [
+          {
+            "score": 6.5,
+            "date": "2026-08-15T02:00:04Z",
+            "commit": "38516aef2388bcd19c156c9daecd0d7f656a9b39"
+          }
+        ],
+        "current": {
+          "score": 7.3,
+          "date": "2026-10-17T01:42:23Z",
+          "commit": "ece7532469713f9b10e9dd933a6df32e339add67"
+        }
+      },
+      "blazingmq-sdk-python": {
         "previous": [],
         "current": {
-          "score": 6.5,
-          "date": "2026-08-15T02:00:04Z",
-          "commit": "38516aef2388bcd19c156c9daecd0d7f656a9b39"
+          "score": 7.4,
+          "date": "2026-10-16T20:59:14Z",
+          "commit": "4ca152cba18852261453310c569138486507eeaa"
+        }
+      },
+      "blazingmq-sdk-java": {
+        "previous": [],
+        "current": {
+          "score": 8.4,
+          "date": "2026-10-17T01:42:12Z",
+          "commit": "d7065b16060a595e180e8f6cebbc8aa98b27bf5e"
+        }
+      },
+      "blazingmq": {
+        "previous": [],
+        "current": {
+          "score": 9.4,
+          "date": "2026-10-17T01:37:33Z",
+          "commit": "980a04d0815dbb795eae527f0a814700f6c6e8cd"
         }
       }
     }
